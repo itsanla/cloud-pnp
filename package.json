@@ -1,0 +1,14 @@
+{
+  "name": "cloud-pnp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "api": "pnpm --filter ./apps/api run start:dev",
+    "web": "pnpm --filter ./apps/web run dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.20.0"
+}
